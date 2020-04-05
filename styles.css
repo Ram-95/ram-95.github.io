@@ -58,6 +58,15 @@ div {
 	font-size: 42px;
 }
 
+.gmail {
+	color: black;
+	font-size: 42px;
+}
+
+.gmail:hover {
+	color: white;
+}
+
 .fab:hover {
 	color: white;
 }
