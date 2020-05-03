@@ -25,6 +25,7 @@ div {
 	padding-top: 50px;
 	padding-left: 30px;
 	position: relative;
+	
 }
 
 .navigation-bar a{
@@ -39,12 +40,12 @@ div {
 /*Background-Colors*/
 .nav-item {
 	border: 1px;
-	background-color: coral;
+	background-color: #de3404;
 }
 
 
 .coral {
-	background-color: coral;
+	background-color: #de3404;
 	border: 1px solid;
 }
 
@@ -100,7 +101,7 @@ div {
 }
 
 .progress-bar {
-	background-color: coral;
+	background-color: #de3404;
 	height: 5px;
 }
 
@@ -119,5 +120,5 @@ div {
 }
 
 #certifications i:hover {
-	color: coral;
+	color: #de3404;
 }
