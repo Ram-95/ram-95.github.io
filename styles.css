@@ -122,3 +122,25 @@ div {
 #certifications i:hover {
 	color: #de3404;
 }
+
+.side-line {
+	border-left: 2px solid #de3404; 
+	background-color: #f7fcf9;
+}
+
+.edu-timeline {
+	color: #0c5e7d;
+	float: right;
+	font-size: 16px;
+}
+
+.edu-details h5 {
+	font-size: 16px;
+	color:  #737373;
+	line-height: 1.4;
+	font-weight: normal;
+}
+
+.edu-details h4 {
+	font-size: 22px;
+}
