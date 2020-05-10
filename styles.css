@@ -151,10 +151,6 @@ div {
 	font-size: 18px;
 }
 
-.work-title {
-	color: #de3404;
-	font-size: 22px;
-}
 
 .work-designation {
 	font-size: 18px;
@@ -163,8 +159,8 @@ div {
 	font-weight: bold;
 }
 
-h4.work-title {
-	font-size: 24px;
+.work-title {
+	font-size: 22px;
 	color: #de3404;
 	border-bottom: 1px solid #de3404;
 	padding-bottom: 8px;	
