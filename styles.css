@@ -129,12 +129,12 @@ div {
 }
 
 .edu-timeline {
-	color: #0c5e7d;
+	color: #de3404;
 	float: right;
-	font-size: 16px;
+	font-size: 18px;
 }
 
-.edu-details h5 {
+.edu-details h5{
 	font-size: 16px;
 	color:  #737373;
 	line-height: 1.4;
@@ -143,4 +143,34 @@ div {
 
 .edu-details h4 {
 	font-size: 22px;
+}
+
+.work-timeline {
+	color: #de3404;
+	float: right;
+	font-size: 18px;
+}
+
+.work-title {
+	color: #de3404;
+	font-size: 22px;
+}
+
+.work-designation {
+	font-size: 18px;
+	color:  #737373;
+	line-height: 1.4;
+	font-weight: bold;
+}
+
+h4.work-title {
+	font-size: 24px;
+	color: #de3404;
+	border-bottom: 1px solid #de3404;
+	padding-bottom: 8px;	
+}
+
+.projects-table h5 {
+	border-bottom: 1px solid #de3404;
+	padding-bottom: 5px;
 }
