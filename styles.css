@@ -36,10 +36,20 @@ div {
 	padding: 5px;
 }
 
+/* Style for Navigation bar items - About, Education etc., */
 .fas {
 	font-size:68px;
 }
 
+/* Styling for Social Media Buttons - Gmail, LInkedin and Github Icons*/
+.social {
+	color: white;
+	font-size: 42px;
+	
+}
+.social:hover {
+	color: yellow;
+}
 
 .profile-details {
 	padding-top: 3%;
@@ -58,17 +68,17 @@ div {
 /*Background-Colors*/
 .nav-item {
 	border: none;
-	background-color: #de3404;
+	/*background-color: #de3404;*/
+	background-color: rgba(222, 52, 4, 0.8)
 }
 
 
 .coral {
-	background-color: rgba(222, 52, 4, 0.4)
+	background-color: rgba(222, 52, 4, 0.7);
 	/*border-bottom: 2px solid;*/
+	border: 5px black solid;
 }
 
-
- /* End of Background-Colors */
 
 .nav-item i:hover,  .navigation-bar a:hover{
 	color: yellow;
@@ -78,23 +88,6 @@ div {
 	background-color: #83888a;
 }
 
-.fab {
-	color: black;
-	font-size: 42px;
-}
-
-.gmail {
-	color: black;
-	font-size: 42px;
-}
-
-.gmail:hover {
-	color: white;
-}
-
-.fab:hover {
-	color: white;
-}
 
 .education-table th, td {
   padding: 15px;
