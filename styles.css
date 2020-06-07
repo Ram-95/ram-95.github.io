@@ -1,3 +1,8 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   position: relative;
   margin: 0;
@@ -26,6 +31,14 @@ body {
     
 }
 
+
+.social-bar {
+	margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
 img {
 	max-width: 100%;
@@ -69,14 +82,13 @@ div {
 .nav-item {
 	border: none;
 	/*background-color: #de3404;*/
-	background-color: rgba(222, 52, 4, 0.8)
+	background-color: rgba(222, 52, 4, 0.7)
 }
 
 
 .coral {
 	background-color: rgba(222, 52, 4, 0.7);
-	/*border-bottom: 2px solid;*/
-	border: 5px black solid;
+	border-bottom: 3px solid;
 }
 
 
@@ -88,6 +100,10 @@ div {
 	background-color: #83888a;
 }
 
+.badge-secondary {
+    color: #fff;
+    background-color: #575d63;
+}
 
 .education-table th, td {
   padding: 15px;
@@ -111,6 +127,10 @@ div {
 	word-break:break-all;
 }
 
+.progress {
+	background-color: #d7e2ec;
+}
+
 .progress-bar {
 	background-color: #de3404;
 	height: 5px;
@@ -123,6 +143,10 @@ div {
 
 .projects:hover {
 	color: black;
+}
+
+.second-div {
+		color: black;
 }
 
 #certifications i {
