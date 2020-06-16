@@ -200,7 +200,13 @@ div {
 	border-bottom: 1px solid #de3404;
 	padding-bottom: 8px;	
 }
+.footer-links {
+	color: white;
+}
 
+.footer-links:hover {
+	color: yellow;
+}
 .projects-table h5 {
 	border-bottom: 1px solid #de3404;
 	padding-bottom: 5px;
