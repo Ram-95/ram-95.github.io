@@ -82,13 +82,26 @@ div {
 .nav-item {
 	border: none;
 	/*background-color: #de3404;*/
-	background-color: rgba(222, 52, 4, 0.7)
+	/*background-color: rgba(222, 52, 4, 0.7);*/
+	border-radius: 1em;
 }
 
+.main-content {
+	margin: auto;
+	background-color: rgba(222, 52, 4, 0.7);
+	box-sizing: border-box;	
+	border-radius: 1em;
+	max-width: 100%;
+}
 
 .coral {
 	background-color: rgba(222, 52, 4, 0.7);
 	border-bottom: 3px solid;
+	align-items: center;
+	margin: auto;
+	max-width: 100%;
+	box-sizing: border-box;	
+	border-radius: 1em;
 }
 
 
@@ -98,6 +111,7 @@ div {
 
 .nav-item:hover {
 	background-color: #83888a;
+	border: 1px solid white;
 }
 
 .badge-secondary {
