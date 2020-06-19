@@ -40,6 +40,28 @@ body {
     flex-wrap: nowrap;
 }
 
+
+
+.square {
+  height: 18px;
+  width: 18px;
+  background-color: #d8e0e3;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.square-active {
+ background-color: #de3404;
+ height: 18px;
+ width: 18px; 
+ border-radius: 50%;
+ display: inline-block;
+}
+
+.rating td {
+	border-top: none;
+}
+
 img {
 	max-width: 100%;
 }
