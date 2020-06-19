@@ -65,7 +65,6 @@ div {
 }
 
 .profile-details {
-	padding-top: 3%;
     padding-left: inherit;
     position: relative;
 }
@@ -110,8 +109,8 @@ div {
 }
 
 .nav-item:hover {
-	background-color: #83888a;
-	border: 1px solid white;
+	background-color: #999796;
+	border: 1px solid black;
 }
 
 .badge-secondary {
