@@ -31,6 +31,9 @@ body {
     
 }
 
+.edu-details h4 {
+	font-size: 20px;
+}
 
 .social-bar {
 	margin-right: -15px;
@@ -208,7 +211,7 @@ div {
 }
 
 .work-title {
-	font-size: 22px;
+	font-size: 20px;
 	color: #de3404;
 	border-bottom: 1px solid #de3404;
 	padding-bottom: 8px;	
