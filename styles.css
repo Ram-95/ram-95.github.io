@@ -31,6 +31,24 @@ body {
     
 }
 
+.square-active {
+ background-color: #de3404;
+ height: 15px;
+ width: 15px; 
+ border-radius: 50%;
+ display: inline-block;
+}
+
+
+.square {
+  height: 15px;
+  width: 15px;
+  background-color: #d8e0e3;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
 .edu-details h4 {
 	font-size: 20px;
 }
@@ -145,12 +163,16 @@ div {
 
 .progress {
 	background-color: #d7e2ec;
+	padding: 1px;
+	border-radius: 15px;
 }
+
 
 .progress-bar {
 	background-color: #de3404;
-	height: 5px;
+	border-radius: 15px;
 }
+
 
 .projects {
 	color: grey;
