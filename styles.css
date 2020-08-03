@@ -1,53 +1,51 @@
-html,
-body {
-  height: 100%;
+html, body {
+	height: 100%;
 }
 
 body {
-  position: relative;
-  margin: 0;
-  height: 100%;
-  width: 100%;
-  padding-bottom: 6rem;
-  min-height: 100%;
-  /*font-family: Helvetica Neue, Helvetica, Arial, sans-serif;*/
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  font-size: 15px;
-  line-height: 1.6;
-  background-color: gray;
-  font-variant: normal;
- 
+	position: relative;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	padding-bottom: 6rem;
+	min-height: 100%;
+	/*font-family: Helvetica Neue, Helvetica, Arial, sans-serif;*/
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+	font-size: 15px;
+	line-height: 1.6;
+	background-color: gray;
+	font-variant: normal;
 }
+
+
+	
 
 #particles-js {
-    width: 100%;
-    height: 100%;
-    background-color: #1d1f1e;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #1d1f1e;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	position: fixed;
 	z-index: -1;
-    
 }
 
 .square-active {
- background-color: #de3404;
- height: 15px;
- width: 15px; 
- border-radius: 50%;
- display: inline-block;
+	background-color: #de3404;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	display: inline-block;
 }
-
 
 .square {
-  height: 15px;
-  width: 15px;
-  background-color: #d8e0e3;
-  border-radius: 50%;
-  display: inline-block;
+	height: 15px;
+	width: 15px;
+	background-color: #d8e0e3;
+	border-radius: 50%;
+	display: inline-block;
 }
-
 
 .edu-details h4 {
 	font-size: 20px;
@@ -55,50 +53,52 @@ body {
 
 .social-bar {
 	margin-right: -15px;
-    margin-left: -15px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+	margin-left: -15px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
 }
 
 img {
 	max-width: 100%;
 }
 
-
 div {
 	padding: 5px;
 }
 
 /* Style for Navigation bar items - About, Education etc., */
+
 .fas {
-	font-size:68px;
+	font-size: 68px;
 }
 
 /* Styling for Social Media Buttons - Gmail, LInkedin and Github Icons*/
+
 .social {
 	color: white;
 	font-size: 42px;
-	
 }
+
 .social:hover {
 	color: yellow;
 }
 
 .profile-details {
-    padding-left: inherit;
-    position: relative;
+	padding-left: inherit;
+	position: relative;
 }
 
-.navigation-bar a{
-  color:white;
-  font-size:15px;
-  text-align: center;
-  text-transform:uppercase;
-  font-family:Arial, Helvetica, sans-serif;  
+.nav a {
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Background-Colors*/
+
 .nav-item {
 	border: none;
 	/*background-color: #de3404;*/
@@ -109,7 +109,7 @@ div {
 .main-content {
 	margin: auto;
 	background-color: rgba(222, 52, 4, 0.7);
-	box-sizing: border-box;	
+	box-sizing: border-box;
 	border-radius: 1em;
 	max-width: 100%;
 }
@@ -120,12 +120,11 @@ div {
 	align-items: center;
 	margin: auto;
 	max-width: 100%;
-	box-sizing: border-box;	
+	box-sizing: border-box;
 	border-radius: 1em;
 }
 
-
-.nav-item i:hover,  .navigation-bar a:hover{
+.nav-item i:hover, .nav a:hover {
 	color: yellow;
 }
 
@@ -135,17 +134,17 @@ div {
 }
 
 .badge-secondary {
-    color: #fff;
-    background-color: #575d63;
+	color: #fff;
+	background-color: #575d63;
 }
 
 .education-table th, td {
-  padding: 15px;
+	padding: 15px;
 }
 
 .quote {
-	border: solid; 
-	border-color: white; 
+	border: solid;
+	border-color: white;
 	border-width: 3px;
 }
 
@@ -153,12 +152,12 @@ div {
 	border: 1px solid #ccc;
 }
 
-.tab-content:hover, .profile-pic:hover{
-  box-shadow: 0 0 41px rgba(241, 247, 176,0.4); 
+.tab-content:hover, .profile-pic:hover {
+	box-shadow: 0 0 41px rgba(241, 247, 176, 0.4);
 }
 
 .education-table td, th {
-	word-break:break-all;
+	word-break: break-all;
 }
 
 .progress {
@@ -167,12 +166,10 @@ div {
 	border-radius: 15px;
 }
 
-
 .progress-bar {
 	background-color: #de3404;
 	border-radius: 15px;
 }
-
 
 .projects {
 	color: grey;
@@ -184,11 +181,11 @@ div {
 }
 
 .second-div {
-		color: black;
+	color: black;
 }
 
 #certifications i {
-	font-size:38px;
+	font-size: 38px;
 	color: grey;
 }
 
@@ -197,7 +194,7 @@ div {
 }
 
 .side-line {
-	border-left: 3px solid #de3404; 
+	border-left: 3px solid #de3404;
 	background-color: #f7fcf9;
 }
 
@@ -207,9 +204,9 @@ div {
 	font-size: 18px;
 }
 
-.edu-details h5{
+.edu-details h5 {
 	font-size: 16px;
-	color:  #737373;
+	color: #737373;
 	line-height: 1.4;
 	font-weight: normal;
 }
@@ -224,10 +221,9 @@ div {
 	font-size: 18px;
 }
 
-
 .work-designation {
 	font-size: 18px;
-	color:  #737373;
+	color: #737373;
 	line-height: 1.4;
 	font-weight: bold;
 }
@@ -236,8 +232,9 @@ div {
 	font-size: 20px;
 	color: #de3404;
 	border-bottom: 1px solid #de3404;
-	padding-bottom: 8px;	
+	padding-bottom: 8px;
 }
+
 .footer-links {
 	color: white;
 }
@@ -245,7 +242,14 @@ div {
 .footer-links:hover {
 	color: yellow;
 }
+
 .projects-table h5 {
 	border-bottom: 1px solid #de3404;
 	padding-bottom: 5px;
+}
+
+.coding_profiles {
+	color: blue;
+	/*text-decoration: underline;*/
+	cursor: pointer;
 }
