@@ -7,6 +7,7 @@ body {
 	margin: 0;
 	height: 100%;
 	width: 100%;
+	max-width: 100%;
 	padding-bottom: 6rem;
 	min-height: 100%;
 	/*font-family: Helvetica Neue, Helvetica, Arial, sans-serif;*/
@@ -16,9 +17,6 @@ body {
 	background-color: gray;
 	font-variant: normal;
 }
-
-
-	
 
 #particles-js {
 	width: 100%;
@@ -82,6 +80,7 @@ div {
 
 .social:hover {
 	color: yellow;
+	transition: 0.5s;
 }
 
 .profile-details {
@@ -128,10 +127,12 @@ div {
 	color: yellow;
 }
 
+/*
 .nav-item:hover {
-	background-color: #999796;
+	background-color: #363331;
 	border: 1px solid black;
 }
+*/
 
 .badge-secondary {
 	color: #fff;
@@ -252,4 +253,21 @@ div {
 	color: blue;
 	/*text-decoration: underline;*/
 	cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+	.social_btns {
+		margin: none;
+	}
+	.profile-details {
+		margin-top: 5px;
+		text-align: center;
+	}
+	.coral {
+		width: 100%;
+		padding: none;
+	}
+	.fas {
+		font-size: 48px;
+	}
 }
