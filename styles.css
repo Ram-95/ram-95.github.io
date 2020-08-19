@@ -255,6 +255,11 @@ div {
 	cursor: pointer;
 }
 
+.badge-info {
+	background-color: #de3404;
+	font-size: 85%;
+}
+
 @media only screen and (max-width: 600px) {
 	.social_btns {
 		margin: none;
