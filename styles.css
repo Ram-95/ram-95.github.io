@@ -123,7 +123,11 @@ div {
 	border-radius: 1em;
 }
 
-.nav-item i:hover, .nav a:hover {
+.nav-item a:active {
+	color: yellow;
+}
+
+.nav-item a:focus{
 	color: yellow;
 }
 
