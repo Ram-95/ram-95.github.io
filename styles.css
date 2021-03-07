@@ -45,8 +45,12 @@ body {
 	display: inline-block;
 }
 
+.edu-details {
+	padding-left: 1.5rem;
+}
+
 .edu-details h4 {
-	font-size: 20px;
+	font-size: 1.2rem;
 }
 
 .social-bar {
@@ -127,14 +131,13 @@ div {
 	color: yellow;
 }
 
-.nav-item a:focus{
+.nav-item a:focus {
 	color: yellow;
 }
 
 /*
-.nav-item:hover {
-	background-color: #363331;
-	border: 1px solid black;
+.nav-item a:hover {
+	opacity: 0.8;
 }
 */
 
@@ -206,7 +209,7 @@ div {
 .edu-timeline {
 	color: #de3404;
 	float: right;
-	font-size: 18px;
+	font-size: 1rem;
 }
 
 .edu-details h5 {
@@ -216,9 +219,6 @@ div {
 	font-weight: normal;
 }
 
-.edu-details h4 {
-	font-size: 20px;
-}
 
 .work-timeline {
 	color: #de3404;
@@ -266,6 +266,19 @@ div {
 
 ::selection {
 	background: rgb(240, 161, 133);
+}
+
+.view_resume a {
+	color: white;
+	font-weight: 600;
+}
+
+.view_resume i {
+	font-size: 1.2rem;
+}
+
+.view_resume a:hover {
+	color: yellow;
 }
 
 @media only screen and (max-width: 600px) {
