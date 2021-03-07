@@ -72,7 +72,7 @@ div {
 /* Style for Navigation bar items - About, Education etc., */
 
 .fas {
-	font-size: 68px;
+	font-size: 3.5rem;
 }
 
 /* Styling for Social Media Buttons - Gmail, LInkedin and Github Icons*/
@@ -146,8 +146,14 @@ div {
 	background-color: #575d63;
 }
 
+/*
 .education-table th, td {
 	padding: 15px;
+}
+*/
+
+td {
+	padding: 10px;
 }
 
 .quote {
@@ -219,7 +225,6 @@ div {
 	font-weight: normal;
 }
 
-
 .work-timeline {
 	color: #de3404;
 	float: right;
@@ -281,6 +286,15 @@ div {
 	color: yellow;
 }
 
+.work_experience {
+	padding-left: 1.2rem;
+}
+
+.projects-table ul {
+	padding-left: 1.6rem;
+	padding: 10px;
+}
+
 @media only screen and (max-width: 600px) {
 	.social_btns {
 		margin: none;
@@ -292,8 +306,5 @@ div {
 	.coral {
 		width: 100%;
 		padding: none;
-	}
-	.fas {
-		font-size: 48px;
 	}
 }
