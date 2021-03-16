@@ -283,6 +283,7 @@ td {
 }
 
 .view_resume a:hover {
+	text-decoration: none;
 	color: yellow;
 }
 
