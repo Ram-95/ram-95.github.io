@@ -1,510 +1,581 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-	<!-- Required meta tags -->
-	<meta property="og:image" content="ram_pic.jpg" />
-	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:image:width" content="400" />
-	<meta property="og:image:height" content="300" />
-	<meta name="image" property="og:image" content="ram_pic.jpg">
-	<meta property="og:type" content="Website">
-	<meta name="title" property="og:title" content="Rambabu's Profile">
-	<meta name="description" property="og:description"
-		content="Hey there! Welcome to my website. You can know more about me and my works here.">
+    <!-- Site Info -->
+    <title>K. Ram Babu - Portfolio</title>
+    <meta name="description" content="K. Ram Babu - [&#39;I am an avid programmer and Python programming enthusiast. I like developing applications in Python 3 - from writing Automation Scripts to Web development using Django and Flask frameworks&#39;, &#39;I often solve problems on online coding platforms like HackerRank, Codechef, LeetCode, etc., to enhance my problem solving abilities. I am also a frequent contributor on StackOverflow, the largest programmer question and answer forum on the web.&#39;]">
+    <meta name="author" content="K. Ram Babu">
 
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="author" content="K. Ram Babu">
-	<meta name="description" content="Profile Details of Ram Babu">
-	<meta name="keywords" content="K.Ram Babu, SNIST, Resume, K. Ram Babu Resume, Rambabu Resume">
+    <!-- Open Graph Tags: The title of the page for social media sharing. It can match the title tag or be more descriptive. -->
+    <meta property="og:title" content="K. Ram Babu">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Open Graph Tags: Typically set to "website" for static sites or "article" for content-heavy pages. -->
+    <meta property="og:type" content="website">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-		integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-		crossorigin="anonymous" />
-	<link rel="shortcut icon" type="image/png" href="favicon.png">
+    <!-- Open Graph Tags: The URL of the page, used to ensure link previews resolve to the correct page. -->
+    <meta property="og:url" content="127.0.0.1:5500/index.html">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- Open Graph Tags: URL of an image that represents the page. Useful for link previews. -->
+    <meta property="og:image" content="127.0.0.1:5500/img/ram_pic.jpg">
 
-	<!-- To Use Social Media Icons-->
-	<!--<script src='https://kit.fontawesome.com/a076d05399.js'></script>-->
-	<link rel="stylesheet" href="styles.css">
-	<title>
-		Rambabu's Profile
-	</title>
-</head>
+    <!-- Open Graph Tags: Provides an alternative text for the image to improve accessibility. -->
+    <meta property="og:image:alt" content="K. Ram Babu Profile Image">
 
-<body>
-	<!-- Particles JS used as Background -->
-	<div id="particles-js"></div>
-	<script type="text/javascript" src="particles.js"></script>
-	<script type="text/javascript" src="app.js"></script>
-	<div class="container">
-		<!-- <div class="col"> -->
+    <!-- Preconnect for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-		<!----------------------------  Profile Section ------------------------------>
-		<div class="coral row row-md-4 row-xs-4 row-sm-4">
-			<div class="profile-info col-md-3 col-xs-6 col-sm-6">
-				<img class="profile-pic rounded-circle img-responsive img-thumbnail mx-auto d-block img-fluid"
-					src="ram_pic.jpg" alt="profile_image" width="230" height="230" alt="profile-img">
-			</div>
-			<div class="profile-details col-xs-5 col-sm-6 col-md-6">
-				<h2><strong style="color: white;">K. Ram Babu</strong></h2>
-				<span class="professional_caption">Senior Engineer - TMEIC India | Ex. Cognizant</span>
-				<!-- <div class="mt-1 view_resume">
-					<a href="https://drive.google.com/file/d/1u_VjCLajjUvHMJQHqaW_A40rWLZ-A7Gy/view?usp=sharing"
-						target=" _blank"><i class="fas fa-file-alt"></i>&nbsp;View Resume</a>
-				</div>-->
-	
-				<div class="row social-bar bg-black mt-2">
+    <!-- Custom Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+          rel="stylesheet">
 
-					<div class="social_btns col-xs-1 col-sm-1 col-md-1">
-						<span title="Linkedin">
-							<a href="https://www.linkedin.com/in/ram-babu-kottapally/" target="_blank">
-								<i class='fab fa-linkedin social'></i>
-								</a>
-						</span>
-					</div>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/modern_normalize.css" />
+    <link rel="stylesheet" href="css/html5bp.css">
+    <link rel="stylesheet" href="css/main.css">
 
-					<div class="social_btns col-xs-1 col-sm-1 col-md-1 ml-3">
-						<span title="Github">
-							<a href="https://github.com/Ram-95" target="_blank"><i
-									class='fab fa-github-square social'></i></a>
-						</span>
-					</div>
-					
-					<div class="social_btns col-xs-1 col-sm-1 col-md-1 ml-3">
-						<span title="StackOverflow">
-							<a href="https://stackoverflow.com/users/2773206/ram" target="_blank"><i
-									class='fab fa-stack-overflow social'></i></a>
-						</span>
-					</div>
+    <!-- Set a theme color that matches your website's primary color -->
+    <meta name="theme-color" content="#fafafa">
 
-					<div class="social_btns col-xs-1 col-sm-1 col-md-1 ml-3">
-						<span title="Gmail">
-							<a href="mailto:ram.kottapally@gmail.com" target="_blank"><i
-									class='gmail fas fa-envelope-square social' style="font-size: 41px;"></i></a>
-						</span>
-					</div>
+    <!-- Favicon for all browsers -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
 
-				</div>
-			</div>
+    <!-- Apple touch icon for iOS devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon.png">
 
+    <!-- Web app manifest for Progressive Web Apps -->
+    <link rel="manifest" href="/site.webmanifest">
 
-		</div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-		<nav class="navigation-bar main-content">
+    <!-- Content Security Policy: Uncomment to enhance security by restricting where content can be loaded from (useful for preventing certain attacks like XSS). Update if adding external sources (e.g., Google Fonts, Bootstrap CDN, analytics, etc). -->
+    <!-- <meta http-equiv="Content-Security-Policy" content=" default-src 'self'; script-src 'self' code.jquery.com; style-src 'self' fonts.googleapis.com; font-src fonts.gstatic.com; img-src 'self' images.examplecdn.com; "> -->
+  </head>
 
-			<!-- Nav pills -->
-			<ul class="nav navbar" role="tablist">
-				<li class="nav-item active col-md-3">
-					<a class="nav-link" data-toggle="pill" href="#home" title="About"><i class='fas fa-user'></i>
-						<br>
-						<strong><span>about</span></strong>
-					</a>
-				</li>
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <div class="header-top flex-responsive">
+          
+            <img class="header-image"
+                 width="256"
+                 height="256"
+                 src="img/ram_pic.jpg"
+                 alt="K. Ram Babu Profile Image" />
+          
+          <div class="header-info">
+            <div class="name-container">
+            <h1>K. Ram Babu</h1>
+            <i class="fas fa-moon" onclick="myFunction()" style="cursor: pointer;" title="Toggle dark mode"></i>
+            </div>
+            <h2 class="header-label">Senior Engineer at TMEIC</h2>
+            
+              <address>
+                <ul class="inline-list flex-responsive">
+                  
+                    <li>
+                      <a href="mailto:ram.kottapally@gmail.com">ram.kottapally@gmail.com</a>
+                    </li>
+                  
+                  
+                  <li>Hyderabad, India</li>
+                </ul>
+              </address>
+            
+            
+              <ul class="inline-list flex-responsive">
+                
+                  <li>
+                    <a href="https://ram-95.github.io/"
+                       rel="noopener noreferrer"
+                       aria-label="Personal Website"
+                       class="link-with-icon"
+                       target="_blank">
+                      <svg aria-hidden="true"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img"
+     width="16"
+     height="16"
+     fill="currentColor"
+     class="bi bi-globe-americas"
+     viewBox="0 0 16 16">
+  <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z" />
+</svg>
 
-				<li class="nav-item col-md-3">
-					<a class="nav-link" data-toggle="pill" href="#education" title="Education"><i
-							class='fas fa-graduation-cap'></i>
-						<br>
-						<strong><span>education</span></strong>
-					</a>
-				</li>
-				<li class="nav-item col-md-3">
-					<a class="nav-link" data-toggle="pill" href="#experience" title="Work Experience"><i
-							class='fas fa-briefcase'></i>
-						<br>
-						<strong><span>experience</span></strong>
-					</a>
-				</li>
-				<li class="nav-item col-md-3">
-					<a class="nav-link technical_skills" data-toggle="pill" href="#technical_skills"
-						title="Technical Skills"><i class='fas fa-file-code'></i>
-						<br>
-						<strong><span>technical skills</span></strong>
-					</a>
-				</li>
-			</ul>
+                      Personal Website
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://www.linkedin.com/in/ram-babu-kottapally/"
+                       rel="noopener noreferrer"
+                       aria-label="LinkedIn"
+                       class="link-with-icon"
+                       target="_blank">
+                      <svg aria-hidden="true"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img"
+     width="16"
+     height="16"
+     fill="currentColor"
+     class="bi bi-linkedin"
+     viewBox="0 0 16 16">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+</svg>
 
+                      LinkedIn
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://github.com/Ram-95"
+                       rel="noopener noreferrer"
+                       aria-label=" Github"
+                       class="link-with-icon"
+                       target="_blank">
+                      <svg aria-hidden="true"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img"
+     width="16"
+     height="16"
+     fill="currentColor"
+     class="bi bi-github"
+     viewBox="0 0 16 16">
+  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+</svg>
 
-			<!-- Tab panes -->
-			<div class="tab-content bg-white">
-				<!---------------------------- About Section ------------------------------------------>
-				<div id="home" class="container tab-pane active"><br>
-					<h3>
-						<div class="side-line"><strong>About</strong></div>
-					</h3><br>
-					<article style="padding: inherit;">
-						<p>
-							Hi there! I am <span style="font-weight: 700;">Ram Babu</span>.
-						</p>
-						<p>
-							I am an avid programmer and Python programming enthusiast. I previously worked as an ETL Developer - Majorly
-							worked on <i>Informatica PowerCenter (Data Integration Tool), Oracle and Shell Scripting</i>.
-						</p>
-						<p>
-							I like developing applications in Python 3 - from writing <strong>Automation Scripts</strong> to <strong>Web development using Django and Flask</strong> frameworks.
-							I often solve problems on online coding platforms
-							like
-							<a class="coding_profiles" href="https://www.hackerrank.com/Ram_Babu93" target="_blank"
-								style="color: #de3404; text-transform: capitalize;">HackerRank</a>,
-							<a class="coding_profiles" href="https://www.codechef.com/users/ramm_y2k" target="_blank"
-								style="color: #de3404; text-transform: capitalize;">Codechef</a>,
-							<a class="coding_profiles" href="https://leetcode.com/ram_babu/" target="_blank"
-								style="color: #de3404; text-transform: capitalize;">LeetCode</a>,
-							etc., to enhance my problem solving abilities. I am also a frequent contributor on <a class="coding_profiles" href="https://stackoverflow.com/users/2773206/ram" target="_blank"
-								style="color: #de3404; text-transform: capitalize;">StackOverflow</a>, the largest programmer question and answer forum on the web.
+                       Github
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://stackoverflow.com/users/2773206/ram"
+                       rel="noopener noreferrer"
+                       aria-label=" StackOverflow"
+                       class="link-with-icon"
+                       target="_blank">
+                      <svg aria-hidden="true"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img"
+     width="16"
+     height="16"
+     fill="currentColor"
+     class="bi bi-stack-overflow"
+     viewBox="0 0 16 16">
+  <path d="M12.412 14.572V10.29h1.428V16H1v-5.71h1.428v4.282z" />
+  <path d="M3.857 13.145h7.137v-1.428H3.857zM10.254 0 9.108.852l4.26 5.727 1.146-.852zm-3.54 3.377 5.484 4.567.913-1.097L7.627 2.28l-.914 1.097zM4.922 6.55l6.47 3.013.603-1.294-6.47-3.013zm-.925 3.344 6.985 1.469.294-1.398-6.985-1.468z" />
+</svg>
 
-						</p>
+                       StackOverflow
+                    </a>
+                  </li>
+                
+              </ul>
+            
+            
+              
+                <p class="header-summary">I am an avid programmer and Python programming enthusiast. I like developing applications in Python 3 - from writing Automation Scripts to Web development using Django and Flask frameworks</p>
+              
+                <p class="header-summary">I often solve problems on online coding platforms like HackerRank, Codechef, LeetCode, etc., to enhance my problem solving abilities. I am also a frequent contributor on StackOverflow, the largest programmer question and answer forum on the web.</p>
+              
+            
+          </div>
+        </div>
+      </div>
+    </header>
 
-						<p>
-							You can reach out to me at: <a href="mailto:ram.kottapally@gmail.com"
-								style="color:#de3404; text-transform:lowercase; font-weight:bold;">ram.kottapally@gmail.com</a>
-						</p>
-					</article>
-				</div>
-				<!-------------------- Education Section ----------------------->
-				<div id="education" class="container tab-pane fade"><br>
-					<h3>
-						<div class="side-line"><strong>Education Details</strong></div>
-					</h3><br>
-					<ul class="edu-details">
-						<li>
-							<h4>Data Science - CGPA: 8.31
-								<span class="edu-timeline">2022 - Present</span>
-							</h4>
-							<h5>Diploma in Data Science - <a href="https://app.diploma.iitm.ac.in/student/22DS1000242" target="_blank">Student Portfolio</a></h5>
-							<h5>Indian Institute of Technology, Madras</h5>
-						</li>
-						<br>
-						<li>
-							<h4>B.Tech - 72.62%
-								<span class="edu-timeline">2011 - 2015</span>
-							</h4>
-							<h5>Computer Science and Engineering (CSE)</h5>
-							<h5>Sreenidhi Institute of Science and Technology (SNIST)</h5>
-						</li>
-						<br>
-						<li>
-							<h4>Class XII - 92.60%
-								<span class="edu-timeline">2009 - 2011</span>
-							</h4>
-							<h5>Maths - Physics - Chemistry (MPC)</h5>
-							<h5>Sri Chaitanya Junior College</h5>
-						</li>
-						<br>
-						<li>
-							<h4>Class X - 90.33%
-								<span class="edu-timeline">2008 - 2009</span>
-							</h4>
-							<h5>Gopi Memorial High School</h5>
-						</li>
-					</ul>
-				</div>
+    <div class="page-content">
+      <div class="container">
+        <main>
+          
+            <section>
+              <h2 class="section-heading">Work Experience</h2>
+              
+                <section>
+                  <h3>
+                    
+                      Senior Engineer at <a href="https://www.tmeic.com/" target="_blank">TMEIC (Toshiba-Mitsubishi Electric Industrial Systems Corporation)</a>
+                    
+                  </h3>
+                  
+                    <p class="section-label">27/01/2022 - Present</p>
+                  
+                  
+                    <div class="tags">
+                      
+                        <span>Python</span>
+                      
+                        <span>Django</span>
+                      
+                        <span>Django REST Framework</span>
+                      
+                        <span>PostgreSQL</span>
+                      
+                        <span>SQL</span>
+                      
+                    </div>
+                  
+                  <p>Backend Engineer for Steel Plant Automation project. Developing a dashboard with widgets to visualize manufacturing processes in steel plants.</p>
+                  
+                    <ul>
+                      <li>Developing REST APIs for front-end widget consumption</li><li>Testing and optimizing REST APIs for improved performance</li><li>Enhancing code for faster loading times</li><li>Direct customer interaction for requirements and feedback</li><li>Mentoring junior developers</li><li>Leading sub-modules of the project</li>
+                    </ul>
+                  
+                </section>
+              
+                <section>
+                  <h3>
+                    
+                      Programmer Analyst at <a href="https://www.cognizant.com/us/en" target="_blank">Cognizant Technology Solutions</a>
+                    
+                  </h3>
+                  
+                    <p class="section-label">30/06/2015 - 19/04/2017</p>
+                  
+                  
+                    <div class="tags">
+                      
+                        <span>SQL</span>
+                      
+                        <span>Informatica PowerCenter</span>
+                      
+                        <span>Shell Scripting</span>
+                      
+                    </div>
+                  
+                  <p>Worked as an ETL Developer for a Healthcare Project. Majorly worked on SQL, Informatica PowerCenter and UNIX Shell Scripting.</p>
+                  
+                    <ul>
+                      <li>Performed detailed Source to Target Data Analysis and Transformation Analysis.</li><li>Used ETL process to Extract, Transform and Load the data from various sources into Staging area and Data Warehouse.</li><li>Designed and Created Mappings, Sessions and Workflows to fetch data from multiple source systems to Data Warehouse by maintaining Source Data Integrity.</li>
+                    </ul>
+                  
+                </section>
+              
+            </section>
+          
 
-				<!---------------------------  Work Experience Section --------------------------------------->
+          
+            <section>
+              <h2 class="section-heading">Projects</h2>
+              
+                <section>
+                  <h3>
+                    
+                      <a href="https://github.com/Ram-95/blog_application_django" target="_blank">Blog Application</a>
+                    
+                  </h3>
+                  
+                    <div class="tags">
+                      
+                        <span>Python</span>
+                      
+                        <span>Django</span>
+                      
+                        <span>HTML</span>
+                      
+                        <span>CSS</span>
+                      
+                        <span>jQuery</span>
+                      
+                    </div>
+                  
+                  <p>Developed a Blog application using Django framework.</p>
+                  
+                    <ul>
+                      <li>User Authentication - Users can register, login and logout</li><li>Create, Edit and Delete Posts</li><li>Users can Like and Comment on posts.</li><li>Connections - Follow/Unfollow other users.</li>
+                    </ul>
+                  
+                  
+                </section>
+              
+                <section>
+                  <h3>
+                    
+                      <a href="https://github.com/Ram-95/covid-19_india_data" target="_blank">COVID-19 India Tracker</a>
+                    
+                  </h3>
+                  
+                    <div class="tags">
+                      
+                        <span>HTML</span>
+                      
+                        <span>CSS</span>
+                      
+                        <span>jQuery</span>
+                      
+                    </div>
+                  
+                  <p>A Dashboard showing the spread of COVID-19 in India and it&#39;s states.</p>
+                  
+                    <ul>
+                      <li>Visualization of Cummulative and Daily spread across India and it&#39;s states</li><li>Shows detailed data of States and Districts</li><li>Search for vaccination centers by area PIN code.</li>
+                    </ul>
+                  
+                  
+                    <div class="gallery main-gallery">
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="https://raw.githubusercontent.com/Ram-95/covid-19_india_data/main/screenshots/India-1.JPG"
+                               alt="Covid-19 India Tracker 1">
+                          <figcaption>Covid-19 India Tracker 1</figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="https://raw.githubusercontent.com/Ram-95/covid-19_india_data/main/screenshots/India-2.JPG"
+                               alt="Covid-19 India Tracker 2">
+                          <figcaption>Covid-19 India Tracker 2</figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="https://raw.githubusercontent.com/Ram-95/covid-19_india_data/main/screenshots/Vaccine_Center.JPG"
+                               alt="Vaccination Center Search">
+                          <figcaption>Vaccination Center Search</figcaption>
+                        </figure>
+                      
+                    </div>
+                  
+                </section>
+              
+            </section>
+          
 
-				<div id="experience" class="container tab-pane fade"><br>
-					<h3>
-						<div class="side-line"><strong>Work Experience</strong></div>
-					</h3><br>
-					<table>
-						<tbody>
-							<tr>
-								<td>
-									<h4 class="work-title">TMEIC (Toshiba Mitsubishi Electric Industrial Systems Corporation) - India<span class="work-timeline">2022 - Present</span></h4>
-									<h5><span class="work-designation">Senior Engineer</span></h5>
-								</td>
-							</tr>
+          
 
-							<tr>
-								<td>
-									<ul class="work_experience">
-										<li><strong>Current Role:</strong> Backend Engineer for Steel Plant Automation project</li>
-										<li><strong>Project Focus:</strong> Developing a dashboard with widgets to visualize manufacturing processes in steel plants
-										</li>
-										<li><strong>Technology Stack:</strong> Django, Django REST Framework, Python, SQL</li>
-										<li>
-											<strong>Key Responsibilities:</strong>
-											<ul>
-												<li>Developing REST APIs for front-end widget consumption</li>
-												<li>Testing and optimizing REST APIs for improved performance</li>
-												<li>Enhancing code for faster loading times</li>
-												<li>Direct customer interaction for requirements and feedback</li>
-												<li>Mentoring junior developers</li>
-												<li>Leading sub-modules of the project</li>
-											</ul>
-										</li>
-									
-									</ul>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<h4 class="work-title">Cognizant Technology Solutions<span class="work-timeline">2015 - 2017</span></h4>
-									<h5><span class="work-designation">Programmer Analyst</span></h5>
-								</td>
-							</tr>
+          
+            <section>
+              <h2 class="section-heading">References</h2>
+              
+                <section>
+                  <h3>Person One</h3>
+                  <p class="section-label">Previous Boss</p>
+                  
+                    <blockquote>
+                      Some nice things that Person One said about you, your work ethic, and how you provided value to their team.
+                    </blockquote>
+                  
+                </section>
+              
+                <section>
+                  <h3>Person Two</h3>
+                  <p class="section-label">Previous Coworker</p>
+                  
+                    <blockquote>
+                      More kind things that Person Two said about you, what it was like working with you, and things you&#39;ve accomplished.
+                    </blockquote>
+                  
+                </section>
+              
+            </section>
+          
+        </main>
 
-							<tr>
-								<td>
-									<ul class="work_experience">
-										<li>Worked as an ETL Developer for a Healthcare Project. Majorly worked on
-											<strong>SQL, Informatica PowerCenter and UNIX Shell Scripting.</strong>
-										</li>
-										<li>Performed detailed Source to Target Data Analysis and Transformation
-											Analysis.</li>
-										<li>Used ETL process to Extract, Transform and Load the data from various
-											sources into Staging area and Data Warehouse.</li>
-										<li>Designed and Created Mappings, Sessions and Workflows to fetch data from
-											multiple source systems to Data Warehouse by maintaining Source Data
-											Integrity.</li>
-										<li>Worked with both DB Tables and Flat files. Involved in writing the Unit Test
-											Cases, Unit Testing and Debugging.</li>
-									</ul>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
+        <!-- Sidebar Section -->
+        <aside>
+          
+            <section>
+              <h2 class="section-heading">Education</h2>
+              
+                <section>
+                  <h3>
+                    
+                      <a href="https://app.diploma.iitm.ac.in/student/22DS1000242" target="_blank">Indian Institute of Technology, Madras</a>
+                    
+                  </h3>
+                  <p class="section-label">Madras</p>
+                  
+                    <h4>Degree</h4>
+                    <ul>
+                      <li>Diploma in Data Science</li>
+                    </ul>
+                  
+                  
+                  
+                    <p>
+                      
+                      
+                      <span class="block">Graduation Date: In Progress</span>
+                    </p>
+                  
+                </section>
+              
+                <section>
+                  <h3>
+                    
+                      <a href="https://www.sreenidhi.edu.in/" target="_blank">Sreenidhi Institute of Science and Technology</a>
+                    
+                  </h3>
+                  <p class="section-label">Hyderabad</p>
+                  
+                    <h4>Degree</h4>
+                    <ul>
+                      <li>B.Tech in Computer Science and Engineering</li>
+                    </ul>
+                  
+                  
+                  
+                    <p>
+                      
+                      
+                      <span class="block">Graduation Date: 30/05/2015</span>
+                    </p>
+                  
+                </section>
+              
+            </section>
+          
 
-				<div id="technical_skills" class="container tab-pane slide"><br>
-					<div class="row">
-						<!-- Projects Section -->
-						<div class="col-xs-6 col-sm-6">
+          
+            <section>
+              <h2 class="section-heading">Skills</h2>
+              <ul class="unstyled-list">
+                
+                  <li>
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                      <div class="skill-bar-fill w-85"
+                           role="meter"
+                           aria-valuenow="85"
+                           aria-valuemin="0"
+                           aria-valuemax="100">
+                        <span class="skill-bar-label">Advanced</span>
+                      </div>
+                    </div>
+                  </li>
+                
+                  <li>
+                    <h3>Django</h3>
+                    <div class="skill-bar">
+                      <div class="skill-bar-fill w-80"
+                           role="meter"
+                           aria-valuenow="80"
+                           aria-valuemin="0"
+                           aria-valuemax="100">
+                        <span class="skill-bar-label">Advanced</span>
+                      </div>
+                    </div>
+                  </li>
+                
+                  <li>
+                    <h3>SQL</h3>
+                    <div class="skill-bar">
+                      <div class="skill-bar-fill w-85"
+                           role="meter"
+                           aria-valuenow="85"
+                           aria-valuemin="0"
+                           aria-valuemax="100">
+                        <span class="skill-bar-label">Advanced</span>
+                      </div>
+                    </div>
+                  </li>
+                
+                  <li>
+                    <h3>Django REST Framework</h3>
+                    <div class="skill-bar">
+                      <div class="skill-bar-fill w-80"
+                           role="meter"
+                           aria-valuenow="80"
+                           aria-valuemin="0"
+                           aria-valuemax="100">
+                        <span class="skill-bar-label">Advanced</span>
+                      </div>
+                    </div>
+                  </li>
+                
+                  <li>
+                    <h3>HTML, CSS, JavaScript</h3>
+                    <div class="skill-bar">
+                      <div class="skill-bar-fill w-75"
+                           role="meter"
+                           aria-valuenow="75"
+                           aria-valuemin="0"
+                           aria-valuemax="100">
+                        <span class="skill-bar-label">Comfortable</span>
+                      </div>
+                    </div>
+                  </li>
+                
+              </ul>
+            </section>
+          
 
-							<h3>
-								<div class="side-line"><strong>Projects</strong></div>
-							</h3><br>
-							<table class="projects-table">
-								<tbody>
-									<tr>
-										<td>
-											<article>
-												<h5>Blog Application&nbsp;<a href="https://github.com/Ram-95/blog_application_django"
-														target="_blank" title="Github Link"><i
-															class='projects fab fa-github'></i></a></h5>
-												<ul class="projects_ul">
-													<li>Developed a Blog application using <span
-															class="badge badge-info">Django</span> framework.</li>
-													<li>Features:
-														<ul>
-															<li>User Authentication - Users can register, login and
-																logout</li>
-															<li>Create, Edit and Delete Posts</li>
-															<li>Users can Like and Comment on posts.</li>
-															<li>Connections - Follow/Unfollow other users.</li>
+          
+            <section>
+              <h2 class="section-heading">Certifications</h2>
+              <ul class="unstyled-list">
+                
+                  <li>
+                    <h3>
+                      <a href="https://drive.google.com/file/d/1N-ftoxF8wKaqZhLmaAbbeuUygq580OVT/view" target="_blank">Programming, Data Structures and Algorithms using Python
+                      </a>
+                    </h3>
+                    <p class="section-label">NPTEL &amp; IIT Madras</p>
+                  </li>
+                
+                  <li>
+                    <h3>
+                      <a href="https://drive.google.com/file/d/1G0F41weR8vMLRUr48RHiRT3Uk39OksxK/view" target="_blank">Introduction to Modern Application Development
+                      </a>
+                    </h3>
+                    <p class="section-label">NPTEL &amp; IIT Madras</p>
+                  </li>
+                
+                  <li>
+                    <h3>
+                      <a href="https://www.udemy.com/certificate/UC-KSD3MO24/" target="_blank">SQL Advanced
+                      </a>
+                    </h3>
+                    <p class="section-label">Udemy</p>
+                  </li>
+                
+              </ul>
+            </section>
+          
 
-														</ul>
-													<li>Used <span class="badge badge-info">HTML 5</span>, <span
-															class="badge badge-info">CSS 3</span>, <span
-															class="badge badge-info">Bootstrap 4</span>
-														and <span class="badge badge-info">jQuery</span>
-														for frontend.</li>
-												</ul>
-											</article>
-										</td>
-									</tr>
-									<tr>
-										<td>
-											<article>
-												<h5>COVID-19 India Tracker&nbsp;<a
-														href="https://github.com/Ram-95/covid-19_india_data"
-														target="_blank" title="Github Link"><i
-															class='projects fab fa-github'></i></a></h5>
-												<ul class="projects_ul">
-													<li>A Dashboard showing the spread of COVID-19 in India and it's states.</li>
-													<li>Features:
-														<ul>
-															<li>Visualization of Cummulative and Daily spread across India and it's states</li>
-															<li>Shows detailed data of States and Districts</li>
-															<li>Search for vaccination centers by area PIN code.</li>
+          
+            <section>
+              <h2 class="section-heading">Achievements</h2>
+              
+                <section>
+                  <h3>Semi Finalist</h3>
+                  <p>Semi Finalist in Code Gladiators 2019 &amp; 2021 organised by TechGig.</p>
+                  
+                </section>
+              
+                <section>
+                  <h3>Best Performer</h3>
+                  <p>Awarded Topper of the Batch for Best Performance during Training at Cognizant.</p>
+                  
+                </section>
+              
+                <section>
+                  <h3>Winner of Hackathon</h3>
+                  <p>Winner of Hackathon conducted by Google Student Club - SNIST.</p>
+                  
+                </section>
+              
+            </section>
+          
+        </aside>
+      </div>
+    </div>
 
+    <footer class="page-footer">
+      <div class="container">
+        <p class="quote">Simplicity is the Ultimate Sophistication - Leonardo Da Vinci</p>
+        <p>© 2025 K. Ram Babu. All rights reserved.</p>
+      </div>
+    </footer>
 
-														</ul>
-													<li>Used <span class="badge badge-info">HTML 5</span>, <span
-															class="badge badge-info">CSS 3</span>
-														and <span class="badge badge-info">jQuery</span>
-													</li>
-												</ul>
-											</article>
-										</td>
-									</tr>
-									<tr>
-										<td>
-											<article>
-												<h5>To-Do Application&nbsp;<a href="https://github.com/Ram-95/to_do_app"
-														target="_blank" title="Github Link"><i
-															class='projects fab fa-github'></i></a></h5>
-												<ul>
-													<li>Built a basic To-Do Application using <span
-															class="badge badge-info">Django</span> framework.</li>
-													<li>Features:
-														<ul>
-															<li>User Authentication - Users can register, login and
-																logout</li>
-															<li>Add, Delete, Edit Tasks, Mark tasks as
-																Complete/Incomplete</li>
-															<li>Created APIs using Django-REST framework to fetch Users
-																and Tasks data.</li>
-														</ul>
-													<li>Used <span class="badge badge-info">HTML 5</span>, <span
-															class="badge badge-info">CSS 3</span>, <span
-															class="badge badge-info">Bootstrap 4</span>
-														and <span class="badge badge-info">jQuery</span>
-														for frontend.</li>
-												</ul>
-											</article>
-										</td>
-									</tr>
-									<tr>
-										<td>
-											<article>
-												<h5>Python - Automation <a
-														href="https://github.com/Ram-95/Python_Applications"
-														target="_blank" title="Github Link"><i
-															class='projects fab fa-github'></i></a></h5>
-												<ul>
-													<li>Developed several command line Utilities using Python 3 to
-														automate repetitive tasks
-													</li>
-													<ul>
-														<li>Bulk File Renaming Utility</li>
-														<li>Indeed Job Scraper</li>
-														<li>Flipkart Price Finder</li>
-														<li>Images downloading from a site etc.,</li>
-													</ul>
-													<li>Used <span class="badge badge-info">Python 3</span> and <span
-															class="badge badge-info">Web scraping</span></li>
-												</ul>
-											</article>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<!-- Technical Skills Section -->
-						<div class="col-xs-6 col-sm-6">
-							<h3>
-								<div class="side-line"><strong>Technical Skills</strong></div>
-							</h3><br>
-							<h5>Python 3</h5>
-							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width:85%;"></div>
-							</div>
-							<br>
-							<h5>Django</h5>
-							<div class="progress">
-								<div class="progress-bar" style="width:75%;"></div>
-							</div>
-							<br>
-							<h5>Django REST Framework</h5>
-							<div class="progress">
-								<div class="progress-bar" style="width:75%;"></div>
-							</div>
-							<br>
-							<h5>SQL</h5>
-							<div class="progress">
-								<div class="progress-bar" aria-valuenow="25" style="width:80%;"></div>
-							</div>
-							<br>
-							<h5>HTML 5</h5>
-							<div class="progress">
-								<div class="progress-bar" aria-valuenow="25" style="width:80%;"></div>
-							</div>
-							<br>
-							<h5>CSS</h5>
-							<div class="progress">
-								<div class="progress-bar" aria-valuenow="25" style="width:60%;"></div>
-							</div>
-							<br>
-							
-							<!-- Achievements and Certifications Section -->
-							<div id="certifications">
-								<br>
-								<h3>
-									<div class="side-line"><strong>Certifications</strong></div>
-								</h3><br>
-								<table>
-									<tbody>
-										<tr>
-											<td>Programming, Data Structures and Algorithms using Python - NPTEL and IIT
-												Madras
-											<td>
-											<td><span title="View Certificate"><a
-														href="https://drive.google.com/file/d/1N-ftoxF8wKaqZhLmaAbbeuUygq580OVT/view"
-														target="_blank">
-														<i class='fas fa-file-alt'></i></a></span>
-											<td>
-										</tr>
-										<tr>
-											<td>Introduction to Modern Application Development - NPTEL and IIT Madras
-											<td>
-											<td><span title="View Certificate"><a
-														href="https://drive.google.com/file/d/1G0F41weR8vMLRUr48RHiRT3Uk39OksxK/view"
-														target="_blank">
-														<i class='fas fa-file-alt'></i></a></span>
-											<td>
-										</tr>
-										<tr>
-											<td>SQL Advanced - Udemy
-											<td>
-											<td><span title="View Certificate"><a
-														href="https://www.udemy.com/certificate/UC-KSD3MO24/"
-														target="_blank">
-														<i class='fas fa-file-alt'></i></a></span>
-											<td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-
-							<div id="Achievements/Coding Profiles">
-								<br>
-								<h3><strong>
-										<div class="side-line"> Achievements</div>
-									</strong></h3><br>
-								<ul style="list-style-type:circle;">
-									<li><strong>Semi Finalist</strong> in Code Gladiators 2019 & 2021 organised by TechGig.</li>
-									<li>Awarded <strong>Topper of the Batch</strong> for Best Performance during
-										Training at Cognizant.</li>
-									<li>Received <strong>Client Appreciation</strong> for completing the tasks within
-										the deadlines.</li>
-									<li>Winner of Hackathon conducted by Google Student Club - SNIST.</li>
-								</ul>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</nav>
-
-
-
-
-
-
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-			crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-			crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-			crossorigin="anonymous"></script>
-		<div class="footer" style="text-align: center;">
-			<p style="color: white; font-size: 14px;"><b><i>Simplicity is the Ultimate Sophistication - <span
-							style="color: yellow; font: 15px;">Leonardo Da Vinci</span></i></b></p>
-		</div>
-		
-	</div>
-
-</body>
-
+    <script src="js/app.js"></script>
+  </body>
 </html>

@@ -1,0 +1,222 @@
+{
+    "name": "K. Ram Babu",
+    "label": "Senior Engineer at TMEIC",
+    "image_path": "img/ram_pic.jpg",
+    "contact": {
+      "email": "ram.kottapally@gmail.com",
+      "location": "Hyderabad, India"
+    },
+    "summary": [
+      "I am an avid programmer and Python programming enthusiast. I like developing applications in Python 3 - from writing Automation Scripts to Web development using Django and Flask frameworks", 
+      "I often solve problems on online coding platforms like HackerRank, Codechef, LeetCode, etc., to enhance my problem solving abilities. I am also a frequent contributor on StackOverflow, the largest programmer question and answer forum on the web."],
+    "base_url": "127.0.0.1:5500",
+    "social_links": [
+      {
+        "label": "Personal Website",
+        "url": "https://ram-95.github.io/",
+        "svg_path": "img/globe.svg"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ram-babu-kottapally/",
+        "svg_path": "img/linkedin.svg"
+      },
+      {
+        "label": " Github",
+        "url": "https://github.com/Ram-95",
+        "svg_path": "img/github.svg"
+      },
+      {
+        "label": " StackOverflow",
+        "url": "https://stackoverflow.com/users/2773206/ram",
+        "svg_path": "img/stack-overflow.svg"
+      }
+    ],
+    "work_experience": [
+      {
+        "company": "TMEIC (Toshiba-Mitsubishi Electric Industrial Systems Corporation)",
+        "position": "Senior Engineer",
+        "url": "https://www.tmeic.com/",
+        "start_date": "27/01/2022",
+        "end_date": "Present",
+        "summary": "Backend Engineer for Steel Plant Automation project. Developing a dashboard with widgets to visualize manufacturing processes in steel plants.",
+        "highlights": [
+          "Developing REST APIs for front-end widget consumption",
+          "Testing and optimizing REST APIs for improved performance",
+          "Enhancing code for faster loading times",
+          "Direct customer interaction for requirements and feedback",
+          "Mentoring junior developers",
+          "Leading sub-modules of the project"
+        ],
+        "tech_stack": [
+          "Python",
+          "Django",
+          "Django REST Framework",
+          "PostgreSQL",
+          "SQL"
+        ]
+      },
+      {
+        "company": "Cognizant Technology Solutions",
+        "position": "Programmer Analyst",
+        "url": "https://www.cognizant.com/us/en",
+        "start_date": "30/06/2015",
+        "end_date": "19/04/2017",
+        "summary": "Worked as an ETL Developer for a Healthcare Project. Majorly worked on SQL, Informatica PowerCenter and UNIX Shell Scripting.",
+        "highlights": [
+          "Performed detailed Source to Target Data Analysis and Transformation Analysis.",
+          "Used ETL process to Extract, Transform and Load the data from various sources into Staging area and Data Warehouse.",
+          "Designed and Created Mappings, Sessions and Workflows to fetch data from multiple source systems to Data Warehouse by maintaining Source Data Integrity."
+        ],
+        "tech_stack": [
+          "SQL",
+          "Informatica PowerCenter",
+          "Shell Scripting"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Blog Application",
+        "summary": "Developed a Blog application using Django framework.",
+        "url": "https://github.com/Ram-95/blog_application_django",
+        "highlights": [
+          "User Authentication - Users can register, login and logout",
+          "Create, Edit and Delete Posts",
+          "Users can Like and Comment on posts.",
+          "Connections - Follow/Unfollow other users."
+        ],
+        "images": [],
+        "tech_stack": [
+          "Python",
+          "Django",
+          "HTML",
+          "CSS",
+          "jQuery"
+        ]
+      },
+      {
+        "title": "COVID-19 India Tracker",
+        "summary": "A Dashboard showing the spread of COVID-19 in India and it's states.",
+        "url": "https://github.com/Ram-95/covid-19_india_data",
+        "highlights": [
+          "Visualization of Cummulative and Daily spread across India and it's states",
+          "Shows detailed data of States and Districts",
+          "Search for vaccination centers by area PIN code."
+        ],
+        "images": [
+          {
+            "img_path": "https://raw.githubusercontent.com/Ram-95/covid-19_india_data/main/screenshots/India-1.JPG",
+            "caption": "Covid-19 India Tracker 1"
+          },
+          {
+            "img_path": "https://raw.githubusercontent.com/Ram-95/covid-19_india_data/main/screenshots/India-2.JPG",
+            "caption": "Covid-19 India Tracker 2"
+          },
+          {
+            "img_path": "https://raw.githubusercontent.com/Ram-95/covid-19_india_data/main/screenshots/Vaccine_Center.JPG",
+            "caption": "Vaccination Center Search"
+          }
+        ],
+        "tech_stack": [
+          "HTML",
+          "CSS",
+          "jQuery"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Indian Institute of Technology, Madras",
+        "location": "Madras",
+        "url": "https://app.diploma.iitm.ac.in/student/22DS1000242",
+        "degrees": [
+          "Diploma in Data Science"
+        ],
+        "gpa": "8.31",
+        "graduation_date": "In Progress"
+      },
+      {
+        "institution": "Sreenidhi Institute of Science and Technology",
+        "location": "Hyderabad",
+        "url": "https://www.sreenidhi.edu.in/",
+        "degrees": ["B.Tech in Computer Science and Engineering"],
+        "gpa": "72.62",
+        "graduation_date": "30/05/2015"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "proficiency": 85,
+        "proficiency_label": "Advanced"
+      },
+      {
+        "name": "Django",
+        "proficiency": 80,
+        "proficiency_label": "Advanced"
+      },
+      {
+        "name": "SQL",
+        "proficiency": 85,
+        "proficiency_label": "Advanced"
+      },
+      {
+        "name": "Django REST Framework",
+        "proficiency": 80,
+        "proficiency_label": "Advanced"
+      },
+      {
+        "name": "HTML, CSS, JavaScript",
+        "proficiency": 75,
+        "proficiency_label": "Comfortable"
+      }
+    ],
+    "achievements": [
+      {
+        "name": "Semi Finalist",
+        "summary": "Semi Finalist in Code Gladiators 2019 & 2021 organised by TechGig.",
+        "images": []
+      },
+      {
+        "name": "Best Performer",
+        "summary": "Awarded Topper of the Batch for Best Performance during Training at Cognizant.",
+        "images": []
+      },
+      {
+        "name": "Winner of Hackathon",
+        "summary": "Winner of Hackathon conducted by Google Student Club - SNIST.",
+        "images": []
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Programming, Data Structures and Algorithms using Python",
+        "issued_by": "NPTEL & IIT Madras",
+        "link": "https://drive.google.com/file/d/1N-ftoxF8wKaqZhLmaAbbeuUygq580OVT/view"
+      },
+      {
+        "name": "Introduction to Modern Application Development",
+        "issued_by": "NPTEL & IIT Madras",
+        "link": "https://drive.google.com/file/d/1G0F41weR8vMLRUr48RHiRT3Uk39OksxK/view"
+      },
+      {
+        "name": "SQL Advanced",
+        "issued_by": "Udemy",
+        "link": "https://www.udemy.com/certificate/UC-KSD3MO24/"
+      }
+    ],
+    "references": [
+      {
+        "name": "Person One",
+        "relation": "Previous Boss",
+        "reference": "Some nice things that Person One said about you, your work ethic, and how you provided value to their team."
+      },
+      {
+        "name": "Person Two",
+        "relation": "Previous Coworker",
+        "reference": "More kind things that Person Two said about you, what it was like working with you, and things you've accomplished."
+      }
+    ]
+  }
+  
