@@ -494,3 +494,7 @@ blockquote {
 .dark-mode-labels {
   color: #bfb5b5
 }
+
+.quote {
+  font-style: italic;
+}
