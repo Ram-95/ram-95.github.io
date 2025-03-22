@@ -50,13 +50,14 @@
     <!-- Web app manifest for Progressive Web Apps -->
     <link rel="manifest" href="/site.webmanifest">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <!-- Content Security Policy: Uncomment to enhance security by restricting where content can be loaded from (useful for preventing certain attacks like XSS). Update if adding external sources (e.g., Google Fonts, Bootstrap CDN, analytics, etc). -->
     <!-- <meta http-equiv="Content-Security-Policy" content=" default-src 'self'; script-src 'self' code.jquery.com; style-src 'self' fonts.googleapis.com; font-src fonts.gstatic.com; img-src 'self' images.examplecdn.com; "> -->
   </head>
 
   <body>
     <header class="page-header">
-      <button onclick="myFunction()">Toggle dark mode</button>
       <div class="container">
         <div class="header-top flex-responsive">
           {% if image_path %}
@@ -67,7 +68,10 @@
                  alt="{{ name }} Profile Image" />
           {% endif %}
           <div class="header-info">
+            <div class="name-container">
             <h1>{{ name }}</h1>
+            <i class="fas fa-moon toggle-button" onclick="myFunction()" style="cursor: pointer;" title="Toggle dark mode"></i>
+            </div>
             {% if label %}<h2 class="header-label">{{ label }}</h2>{% endif %}
             {% if contact.email or contact.phone or contact.location %}
               <address>
@@ -122,13 +126,20 @@
                 <section>
                   <h3>
                     {% if job.url %}
-                      {{ job.position }} at <a href="{{ job.url }}">{{ job.company }}</a>
+                      {{ job.position }} at <a href="{{ job.url }}" target="_blank">{{ job.company }}</a>
                     {% else %}
                       {{ job.position }} at {{ job.company }}
                     {% endif %}
                   </h3>
                   {% if job.start_date and job.end_date %}
                     <p class="section-label">{{ job.start_date }} - {{ job.end_date }}</p>
+                  {% endif %}
+                  {% if job.tech_stack %}
+                    <div class="tags">
+                      {% for item in job.tech_stack %}
+                        <span>{{ item }}</span>
+                      {% endfor %}
+                    </div>
                   {% endif %}
                   {% if job.summary %}<p>{{ job.summary }}</p>{% endif %}
                   {% if job.highlights %}
@@ -237,14 +248,14 @@
                 <section>
                   <h3>
                     {% if edu.url %}
-                      <a href="{{ edu.url }}">{{ edu.institution }}</a>
+                      <a href="{{ edu.url }}" target="_blank">{{ edu.institution }}</a>
                     {% else %}
                       {{ edu.institution }}
                     {% endif %}
                   </h3>
                   {% if edu.location %}<p class="section-label">{{ edu.location }}</p>{% endif %}
                   {% if edu.degrees %}
-                    <h4>Degrees</h4>
+                    <h4>Degree</h4>
                     <ul>
                       {% for deg in edu.degrees %}<li>{{ deg }}</li>{% endfor %}
                     </ul>

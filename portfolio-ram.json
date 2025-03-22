@@ -47,6 +47,13 @@
           "Direct customer interaction for requirements and feedback",
           "Mentoring junior developers",
           "Leading sub-modules of the project"
+        ],
+        "tech_stack": [
+          "Python",
+          "Django",
+          "Django REST Framework",
+          "PostgreSQL",
+          "SQL"
         ]
       },
       {
@@ -60,6 +67,11 @@
           "Performed detailed Source to Target Data Analysis and Transformation Analysis.",
           "Used ETL process to Extract, Transform and Load the data from various sources into Staging area and Data Warehouse.",
           "Designed and Created Mappings, Sessions and Workflows to fetch data from multiple source systems to Data Warehouse by maintaining Source Data Integrity."
+        ],
+        "tech_stack": [
+          "SQL",
+          "Informatica PowerCenter",
+          "Shell Scripting"
         ]
       }
     ],

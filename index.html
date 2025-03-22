@@ -50,13 +50,14 @@
     <!-- Web app manifest for Progressive Web Apps -->
     <link rel="manifest" href="/site.webmanifest">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <!-- Content Security Policy: Uncomment to enhance security by restricting where content can be loaded from (useful for preventing certain attacks like XSS). Update if adding external sources (e.g., Google Fonts, Bootstrap CDN, analytics, etc). -->
     <!-- <meta http-equiv="Content-Security-Policy" content=" default-src 'self'; script-src 'self' code.jquery.com; style-src 'self' fonts.googleapis.com; font-src fonts.gstatic.com; img-src 'self' images.examplecdn.com; "> -->
   </head>
 
   <body>
     <header class="page-header">
-      <button onclick="myFunction()">Toggle dark mode</button>
       <div class="container">
         <div class="header-top flex-responsive">
           
@@ -67,7 +68,10 @@
                  alt="K. Ram Babu Profile Image" />
           
           <div class="header-info">
+            <div class="name-container">
             <h1>K. Ram Babu</h1>
+            <i class="fas fa-moon" onclick="myFunction()" style="cursor: pointer;" title="Toggle dark mode"></i>
+            </div>
             <h2 class="header-label">Senior Engineer at TMEIC</h2>
             
               <address>
@@ -194,11 +198,26 @@
                 <section>
                   <h3>
                     
-                      Senior Engineer at <a href="https://www.tmeic.com/">TMEIC (Toshiba-Mitsubishi Electric Industrial Systems Corporation)</a>
+                      Senior Engineer at <a href="https://www.tmeic.com/" target="_blank">TMEIC (Toshiba-Mitsubishi Electric Industrial Systems Corporation)</a>
                     
                   </h3>
                   
                     <p class="section-label">27/01/2022 - Present</p>
+                  
+                  
+                    <div class="tags">
+                      
+                        <span>Python</span>
+                      
+                        <span>Django</span>
+                      
+                        <span>Django REST Framework</span>
+                      
+                        <span>PostgreSQL</span>
+                      
+                        <span>SQL</span>
+                      
+                    </div>
                   
                   <p>Backend Engineer for Steel Plant Automation project. Developing a dashboard with widgets to visualize manufacturing processes in steel plants.</p>
                   
@@ -211,11 +230,22 @@
                 <section>
                   <h3>
                     
-                      Programmer Analyst at <a href="https://www.cognizant.com/us/en">Cognizant Technology Solutions</a>
+                      Programmer Analyst at <a href="https://www.cognizant.com/us/en" target="_blank">Cognizant Technology Solutions</a>
                     
                   </h3>
                   
                     <p class="section-label">30/06/2015 - 19/04/2017</p>
+                  
+                  
+                    <div class="tags">
+                      
+                        <span>SQL</span>
+                      
+                        <span>Informatica PowerCenter</span>
+                      
+                        <span>Shell Scripting</span>
+                      
+                    </div>
                   
                   <p>Worked as an ETL Developer for a Healthcare Project. Majorly worked on SQL, Informatica PowerCenter and UNIX Shell Scripting.</p>
                   
@@ -358,12 +388,12 @@
                 <section>
                   <h3>
                     
-                      <a href="https://app.diploma.iitm.ac.in/student/22DS1000242">Indian Institute of Technology, Madras</a>
+                      <a href="https://app.diploma.iitm.ac.in/student/22DS1000242" target="_blank">Indian Institute of Technology, Madras</a>
                     
                   </h3>
                   <p class="section-label">Madras</p>
                   
-                    <h4>Degrees</h4>
+                    <h4>Degree</h4>
                     <ul>
                       <li>Diploma in Data Science</li>
                     </ul>
@@ -381,12 +411,12 @@
                 <section>
                   <h3>
                     
-                      <a href="https://www.sreenidhi.edu.in/">Sreenidhi Institute of Science and Technology</a>
+                      <a href="https://www.sreenidhi.edu.in/" target="_blank">Sreenidhi Institute of Science and Technology</a>
                     
                   </h3>
                   <p class="section-label">Hyderabad</p>
                   
-                    <h4>Degrees</h4>
+                    <h4>Degree</h4>
                     <ul>
                       <li>B.Tech in Computer Science and Engineering</li>
                     </ul>

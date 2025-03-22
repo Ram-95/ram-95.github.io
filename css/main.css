@@ -219,7 +219,7 @@ aside .section-heading::after {
 
 .section-label {
   font-size: 0.9rem;
-  color: #bfb5b5;
+  color: #444;
   margin-top: 0.25rem;
   margin-bottom: 0.5rem;
 }
@@ -492,9 +492,15 @@ blockquote {
 }
 
 .dark-mode-labels {
-  color: #bfb5b5
+  color: #bfb5b5;
 }
 
 .quote {
   font-style: italic;
+}
+
+.name-container {
+  display: flex;
+  align-items: center; /* Vertically aligns the items */
+  justify-content: space-between; /* Optional: to put space between elements */
 }
