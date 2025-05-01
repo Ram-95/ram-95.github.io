@@ -216,6 +216,7 @@ td {
 	color: #de3404;
 	float: right;
 	font-size: 1rem;
+	display: none;
 }
 
 .edu-details h5 {
